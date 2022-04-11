@@ -7,6 +7,8 @@ public class main {
 		pessoa1.nome = "Vinicius";
 		pessoa1.numfig = 1;
 		
+		pessoa1.receber(3);
+		
 		System.out.println(pessoa1.nome);
 		System.out.println(pessoa1.numfig);
 		
