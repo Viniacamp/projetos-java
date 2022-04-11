@@ -8,7 +8,7 @@ public class Pessoa {
 	}
 	
 	void dar(int numfig) {
-
+		this.numfig = numfig;
 	}
 	
 }
