@@ -12,6 +12,24 @@ public class main {
 		System.out.println(pessoa1.nome);
 		System.out.println(pessoa1.numfig);
 		
+		Pessoa pessoa2 = new Pessoa();
+		
+		pessoa2.nome = "Isabela";
+		pessoa2.numfig= 2;
+		
+		System.out.println(pessoa2.nome);
+		System.out.println(pessoa2.numfig);
+		
+		boolean msg = pessoa1.dar(5, pessoa2);
+		
+		if(msg == true) {
+			System.out.println();
+			System.out.println(pessoa1.nome);
+			System.out.println(pessoa1.numfig);
+			System.out.println(pessoa2.nome);
+			System.out.println(pessoa2.numfig);
+		}
+			
 	}
 
 }
