@@ -1,7 +1,7 @@
 
 public class Matemática {
 	
-	int somar (int x, int y) {
+	int somar(int x, int y) {
 	
 		return x + y;
 
