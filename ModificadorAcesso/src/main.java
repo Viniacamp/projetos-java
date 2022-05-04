@@ -38,8 +38,8 @@ public class main {
 		
 		System.out.println(cliente2);
 		
-		if (cliente1 == cliente2) { //serve para comparar objetos
-			System.out.println("\n Os objetos são iguais");
+		if (cliente1 == cliente2) { //== - serve para comparar objetos
+			System.out.println("\n Os objetos são iguais"); // \n - pular linha
 		}
 		else {
 			System.out.println("\n Os objetos são diferentes");
