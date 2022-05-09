@@ -6,5 +6,7 @@ public class Cachorro extends Animal{
 		System.out.println("AU-AU");
 	}
 
-	
+	public void morder() {
+		System.out.println("NHAC!!");
+	}
 }
