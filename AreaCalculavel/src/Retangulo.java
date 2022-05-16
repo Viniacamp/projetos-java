@@ -5,7 +5,8 @@ public class Retangulo implements AreaCalculavel {
 
 	@Override
 	public void calcularArea() {
-		
+		ladoR = 6;
+		System.out.println("A area do retângulo é: "+ (ladoR * ladoR));
 		
 	}
 

@@ -6,7 +6,9 @@ public class Triangulo implements AreaCalculavel {
 	
 	@Override
 	public void calcularArea() {
-		
+		ladoa = 3;
+		ladob = 4;
+		System.out.println("A area do triângulo é: "+ (ladoa * ladob / 2));
 		
 	}
 
