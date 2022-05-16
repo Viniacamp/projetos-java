@@ -124,14 +124,63 @@ public class main {
 //		}
 		
 		//exercício tabuada	
-		Scanner entrada = new Scanner(System.in);
-		System.out.println("Digite um número");
-		int y = entrada.nextInt();
+//		Scanner entrada = new Scanner(System.in);
+//		System.out.println("Digite um número");
+//		int y = entrada.nextInt();
+//		
+//		for(int x = 0; x < 10;  x++) {
+//			System.out.println(y + " x " +  x  + " = " + x*y);
+//		}
 		
-		for(int x = 0; x < 10;  x++) {
-			System.out.println(y + " x " +  x  + " = " + x*y);
+		//Programa 5 (array) - matriz
+		
+//		//sem matriz
+//		int x1 = 3;
+//		int y1 = 5;
+//		int z1 = 7;
+//		
+//		System.out.println(x1);
+//		System.out.println(y1);
+//		System.out.println(z1);
+//		System.out.println();
+		
+		//com matriz (usando int)
+		
+		int x[] = {3, 5, 7}; // [] = array(matriz)
+		
+		for (int num = 0; num < x.length; num++) {
+			System.out.println("Valor do índice " + num + " = " + x[num]);
 		}
 	
+		//com matriz (usando caractere)
+		String nome[] = {"Vinicius", "Rafael", "Aline"};
+		
+		for (int nome1 = 0; nome1 < nome.length; nome1++) {
+			System.out.println(nome[nome1]);
+			if (nome[nome1] == "Aline") {
+				System.out.println("O índice de Aline é: " + nome1);
+			}
+		}
+			
+		//matriz (com interação do usúario)
+		int[] arrayInt = new int[5];
+		String[] ArrayString = new String[4];
+		double[] ArrayDouble = new double[3];
+		
+		arrayInt[3] = 4;
+		
+		int[] numero = new int[6];
+		Scanner teclado = new Scanner(System.in);
+		
+		for (int num2 = 0; num2 < numero.length; num2++) {
+			System.out.println("Digite um número qualquer");
+			numero[num2] = teclado.nextInt();
+		}
+		
+		for (int num2 = 0; num2 < numero.length; num2++) {
+			System.out.println("Índice " + num2 + " = " + numero[num2]);
+		}
+		
 	}
 
 }
