@@ -12,12 +12,13 @@ public class main {
 //		lista.add(12);
 //		lista.add(true);
 //		
-//		//método 1 (mostra 
+//		//método 1 (desse método, você consegue limitar a busca dos dados)
 //		for(int x=0; x < lista.size(); x++) { 
 //			System.out.println(lista.get(x));
 //		}
 //		
-//		//método 2
+//		//método 2 (desse método, você acaba fazendo uma varredura completa dos dados,
+		//puxando todos eles)
 //		System.out.println();
 //		lista.remove(0); //esse comando remove um valor da lista 
 //		//(nesse caso o valor Teste, que está na posição 0)
