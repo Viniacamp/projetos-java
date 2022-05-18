@@ -1,8 +1,9 @@
 
 public class Pessoa {
 	
-	String nome;
-	int idade;
+	private String nome;
+	private int idade;
+	private Endereco endereco;
 	
 	
 }
