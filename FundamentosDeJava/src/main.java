@@ -133,6 +133,7 @@ public class main {
 //		}
 		
 		//Programa 5 (array) - matriz
+		//as matrizes (arrays) são um conjunto de valores agrupados
 		
 //		//sem matriz
 //		int x1 = 3;
@@ -145,42 +146,64 @@ public class main {
 //		System.out.println();
 		
 		//com matriz (usando int)
+//		
+//		int x[] = {3, 5, 7}; // [] = array(matriz)
+//		
+//		for (int num = 0; num < x.length; num++) {
+//			System.out.println("Valor do índice " + num + " = " + x[num]);
+//		}
+//	
+//		//com matriz (usando caractere)
+//		String nome[] = {"Vinicius", "Rafael", "Aline"};
+//		
+//		for (int nome1 = 0; nome1 < nome.length; nome1++) {
+//			System.out.println(nome[nome1]);
+//			if (nome[nome1] == "Aline") {
+//				System.out.println("O índice de Aline é: " + nome1);
+//			}
+//		}
+//			
+//		//matriz (com interação do usúario)
+//		int[] arrayInt = new int[5]; //[5] = criação de 5 espaços (objetos) na mémoria, que vão receber cinco valores do tipo int
+//		String[] ArrayString = new String[4];
+//		double[] ArrayDouble = new double[3];
+//		
+//		arrayInt[3] = 4; //aqui, você está declarando que o valor 4 vai ficar na posição (índice) 3
+//		
+//		int[] numero = new int[6];
+//		Scanner teclado = new Scanner(System.in);
+//		
+//		for (int num2 = 0; num2 < numero.length; num2++) { //length = atributo do array que identifica a quantidade de espaços criados na memória
+//			System.out.println("Digite um número qualquer");
+//			numero[num2] = teclado.nextInt(); //aqui, você solicita que o usuário digite uma informação(nesse caso, um número)
+//		}
+//		
+//		for (int num2 = 0; num2 < numero.length; num2++) {
+//			System.out.println("Índice " + num2 + " = " + numero[num2]);
+//		}
 		
-		int x[] = {3, 5, 7}; // [] = array(matriz)
+//		Object[] arrayObject = new Object[4]; //criando uma matriz do tipo object, você consegue inserir valores de qualquer tipo
+//	
+//		arrayObject[0] = 12;
+//		arrayObject[1] = "Vinicius";
+//		arrayObject[2] = 15.6;
+//		arrayObject[3] = true;
+//		
+//		for (int num2 = 0; num2 < arrayObject.length; num2++) {
+//			System.out.println("Índice " + num2 + " = " + arrayObject[num2]);			
+//	    }
+//		
+		//criação de duas matrizes (uma para linhas e outra para colunas)
+		int[][] arrayBidirecional = new int[3][3]; 
 		
-		for (int num = 0; num < x.length; num++) {
-			System.out.println("Valor do índice " + num + " = " + x[num]);
-		}
-	
-		//com matriz (usando caractere)
-		String nome[] = {"Vinicius", "Rafael", "Aline"};
-		
-		for (int nome1 = 0; nome1 < nome.length; nome1++) {
-			System.out.println(nome[nome1]);
-			if (nome[nome1] == "Aline") {
-				System.out.println("O índice de Aline é: " + nome1);
+		for (int linha = 0; linha < arrayBidirecional.length; linha++) {
+			for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) {
+				System.out.print("Índice ["+linha+"]["+coluna+"] = " +
+						arrayBidirecional[linha][coluna]+ " ");
 			}
+			System.out.println();
 		}
 			
-		//matriz (com interação do usúario)
-		int[] arrayInt = new int[5];
-		String[] ArrayString = new String[4];
-		double[] ArrayDouble = new double[3];
-		
-		arrayInt[3] = 4;
-		
-		int[] numero = new int[6];
-		Scanner teclado = new Scanner(System.in);
-		
-		for (int num2 = 0; num2 < numero.length; num2++) {
-			System.out.println("Digite um número qualquer");
-			numero[num2] = teclado.nextInt();
-		}
-		
-		for (int num2 = 0; num2 < numero.length; num2++) {
-			System.out.println("Índice " + num2 + " = " + numero[num2]);
-		}
-		
-	}
+    }
 
 }
