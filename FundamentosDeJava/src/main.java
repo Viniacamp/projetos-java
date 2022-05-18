@@ -135,7 +135,7 @@ public class main {
 		//Programa 5 (array) - matriz
 		//as matrizes (arrays) são um conjunto de valores agrupados
 		
-//		//sem matriz
+		//sem matriz
 //		int x1 = 3;
 //		int y1 = 5;
 //		int z1 = 7;
@@ -144,8 +144,8 @@ public class main {
 //		System.out.println(y1);
 //		System.out.println(z1);
 //		System.out.println();
-		
-		//com matriz (usando int)
+//		
+//		//com matriz (usando int)
 //		
 //		int x[] = {3, 5, 7}; // [] = array(matriz)
 //		
@@ -181,7 +181,7 @@ public class main {
 //		for (int num2 = 0; num2 < numero.length; num2++) {
 //			System.out.println("Índice " + num2 + " = " + numero[num2]);
 //		}
-		
+//		
 //		Object[] arrayObject = new Object[4]; //criando uma matriz do tipo object, você consegue inserir valores de qualquer tipo
 //	
 //		arrayObject[0] = 12;
