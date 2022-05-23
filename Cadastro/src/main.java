@@ -1,26 +1,36 @@
+import java.util.Scanner;
 
 public class main {
 
 	public static void main(String[] args) {
 		
-		Object[] arrayObject = new Object[3];
+		Pessoa pessoa = new Pessoa();
 		
 		Scanner conf = new Scanner(System.in);
 		
-		for(Object valor : pessoa) { 
-			System.out.println(pessoa);
-			numero[num2] = teclado.nextInt();
-		}
+		System.out.println("Digite o seu nome:");
+		pessoa.setNome(conf.nextLine());
 		
-		System.out.println("Digite o seu nome");
-		for(Object valor : pessoa) { 
-			numero[num2] = teclado.nextInt();
-		}
+		System.out.println("Digite a sua idade:");
+		pessoa.setIdade(Integer.parseInt(conf.nextLine()));
 		
-		System.out.println("Digite a sua idade");
+		System.out.println("Digite o seu sexo:");
+		pessoa.setSexo(conf.nextLine());
 		
-		System.out.println("Digite o seu endereço");
+		Endereco endereco = new Endereco();
 		
+		pessoa.setEndereco(new Endereco());
+		System.out.println("Digite o seu endereço:");
+		System.out.println();
+		
+		System.out.println("Rua:");
+		endereco.setRua(conf.nextLine());
+		
+		System.out.println("Nº:");
+		endereco.setNumero(Integer.parseInt(conf.nextLine()));
+		
+		System.out.println("Bairro:");
+		endereco.setBairro(conf.nextLine());
 
 	}
 
