@@ -1,13 +1,13 @@
 
 public class Pessoa {
-	String nome;
-	int numfig;
+	String nome; //aqui, é criado a váriavel nome do tipo String
+	int numfig;  //criação da variável numfig do tipo int
 	
-	void receber(int numfig) {
-		this.numfig += numfig; 		
+	void receber(int numfig) { //método receber recebe um valor void (vazio)
+		this.numfig += numfig; //		
 	}
 	
-	boolean dar(int numfig, Pessoa pessoa) {
+	boolean dar(int numfig, Pessoa pessoa) { //método dar recebe um valor do tipo boolean
 		boolean msg;
 	
 		if(this.numfig < numfig) {
