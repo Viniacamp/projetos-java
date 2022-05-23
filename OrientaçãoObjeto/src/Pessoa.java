@@ -4,7 +4,8 @@ public class Pessoa {
 	int numfig;  //criação da variável numfig do tipo int
 	
 	void receber(int numfig) { //método receber recebe um valor void (vazio)
-		this.numfig += numfig; //		
+		this.numfig += numfig; //+= - operador de comparação (mais ou igual)	
+		//this = comando que permite que o método acesse (aponte) para os atributos da classe  
 	}
 	
 	boolean dar(int numfig, Pessoa pessoa) { //método dar recebe um valor do tipo boolean
@@ -16,12 +17,12 @@ public class Pessoa {
 		} 
 		
 		else { 
-			this.numfig -= numfig;
+			this.numfig -= numfig; //-= - menos ou igual
 			pessoa.receber(numfig);
 			msg = true;
 	
 		}
 		
-		return msg; 
+		return msg; //retorna o valor da variável msg
   }
 }
