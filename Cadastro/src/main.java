@@ -8,6 +8,9 @@ public class main {
 		
 		Scanner conf = new Scanner(System.in);
 		
+		int ncad = 0;
+		for(ncad = 0; ncad < 4; ncad++) {
+		
 		System.out.println("Digite o seu nome:");
 		pessoa.setNome(conf.nextLine());
 		
@@ -31,7 +34,9 @@ public class main {
 		
 		System.out.println("Bairro:");
 		endereco.setBairro(conf.nextLine());
-
+		System.out.println();
+		}
+	
 	}
 
 }

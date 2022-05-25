@@ -11,7 +11,6 @@ public class Pessoa {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", endereco=" + endereco + "]";
 	}
 	
-	
 	public String getNome() {
 		return nome;
 	}

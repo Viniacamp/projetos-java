@@ -10,7 +10,6 @@ public class Endereco extends Pessoa{
 		return "Endereco [rua=" + rua + ", numero=" + numero + ", bairro=" + bairro + "]";
 	}
 	
-	
 	public String getRua() {
 		return rua;
 	}
@@ -31,7 +30,6 @@ public class Endereco extends Pessoa{
 	public void setBairro(String bairro) {
 		this.bairro = bairro;
 	}
-	
 	
 	
 }
