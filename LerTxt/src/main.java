@@ -16,7 +16,18 @@ public class main {
 			}
 			System.out.println(string);
 		}
-
+		
+		//Exemplo sabonete (método 1)
+		Sabonete sabonete1 = new Sabonete("Vermelho", "Cereja");
+		String s = sabonete1.toString();
+		
+		//método 2
+		String teste = "Sabonete: cor = Vermelho, cheiro = Cereja";
+		
+		Sabonete sabonete2 = new Sabonete(teste);
+		
+		System.out.println(sabonete2);
+	
 	}
 
 }
