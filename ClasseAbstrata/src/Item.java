@@ -1,9 +1,9 @@
 
 public abstract class Item {
-//Em uma classe abstrata você consegue criar métodos e atributos, porém você não consegue criar
+//Em uma classe abstrata vocÃª consegue criar mÃ©todos e atributos, porÃ©m vocÃª nÃ£o consegue criar
 //objetos dentro dela
-	private int posX; //posição (eixo) x
-	private int posY; //posição (eixo) y
+	private int posX; //posiÃ§Ã£o (eixo) x
+	private int posY; //posiÃ§Ã£o (eixo) y
 	
 	public abstract void pegar();
 

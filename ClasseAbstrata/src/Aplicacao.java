@@ -3,7 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		//Item item = new Item(); - Você não consegue instânciar objetos em uma classe abstrata, porém você consegue 
+		//Item item = new Item(); - VocÃª nÃ£o consegue instÃ¢nciar objetos em uma classe abstrata, porÃ©m vocÃª consegue 
 		//criar objetos de outras classes
 		
 		Item item = new Cogumelo();
