@@ -8,7 +8,7 @@ public class Pessoa {
 	
 	@Override
 	public String toString() {
-		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", endereco=" + endereco + "]";
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "] " + endereco + "] \n";
 	}
 	
 	public String getNome() {
