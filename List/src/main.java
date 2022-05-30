@@ -12,22 +12,22 @@ public class main {
 //		lista.add(12);
 //		lista.add(true);
 //		
-//		//método 1 (desse método, você consegue limitar a busca dos dados)
+//		//mï¿½todo 1 (desse mï¿½todo, vocï¿½ consegue limitar a busca dos dados)
 //		for(int x=0; x < lista.size(); x++) { 
 //			System.out.println(lista.get(x));
 //		}
 //		
-//		//método 2 (desse método, você acaba fazendo uma varredura completa dos dados,
+//		//mï¿½todo 2 (desse mï¿½todo, vocï¿½ acaba fazendo uma varredura completa dos dados,
 		//puxando todos eles)
 //		System.out.println();
 //		lista.remove(0); //esse comando remove um valor da lista 
-//		//(nesse caso o valor Teste, que está na posição 0)
+//		//(nesse caso o valor Teste, que estï¿½ na posiï¿½ï¿½o 0)
 //		for(Object valor : lista) { 
 //			System.out.println(valor);
 //		}
 //		
 //		System.out.println();
-//		lista.add(0, "def"); //esse comando adiciona um valor (def) a lista na posição 0
+//		lista.add(0, "def"); //esse comando adiciona um valor (def) a lista na posiï¿½ï¿½o 0
 //		for(Object valor : lista) { 
 //			System.out.println(valor);
 //		}
@@ -43,12 +43,12 @@ public class main {
 //		lista.clear(); //limpa a lista
 //		
 //		if (lista.isEmpty()) { //se a lista estiver vazia (sem dados), o programa vai executar
-//		//o comando que está abaixo
-//			System.out.println("Sua lista está vazia");
+//		//o comando que estï¿½ abaixo
+//			System.out.println("Sua lista estï¿½ vazia");
 //		}
 		
 		//Programa 2
-		Conta conta1 = new Conta("Água", 60.00);
+		Conta conta1 = new Conta("ï¿½gua", 60.00);
 		Conta conta2 = new Conta("Luz", 120.00);
 		
 		List<Conta> listaDeContas = new ArrayList<Conta>();
