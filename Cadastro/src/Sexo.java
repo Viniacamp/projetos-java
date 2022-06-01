@@ -2,14 +2,10 @@
 public enum Sexo {
 	M(1), F(2);
 
-	private int num;
+	private int s;
 
-	private Sexo (int num) {
-		this.num = num;
+	private Sexo (int s) {
+		this.s = s;
 	}
 	
-	private int getNum() {
-		return num;
-	}
-		
 }

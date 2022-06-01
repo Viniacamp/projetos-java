@@ -3,7 +3,7 @@ public class Pessoa {
 	
 	private String nome;
 	private int idade;
-	private String sexo;
+	private Sexo sexo;
 	private Endereco endereco;
 	
 	@Override
@@ -23,18 +23,14 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public String getSexo() {
-		return sexo;
-	}
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
-	}
 	public Endereco getEndereco() {
 		return endereco;
 	}
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
-	
+	public void setSexo(Sexo sexo) {
+		this.sexo = sexo;	
+	}
 	
 }
