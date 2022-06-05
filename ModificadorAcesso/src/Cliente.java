@@ -8,8 +8,9 @@ public class Cliente {
 	public Cliente() {
 		
 	}
-
-	public String getNome() { //o get serve para mostrar informações, enquanto o set serve para inserir informações
+	
+	//aqui, hÃ¡ a criaÃ§Ã£o dos mÃ©todos get e set; mÃ©todos que vÃ£o fazer com que outras classes consigam acessar e atribuir valores a atributos privados
+	public String getNome() { //o get serve para acessar informaÃ§Ãµes (valores) da variÃ¡vel, enquanto o set serve para atribuir valores a variÃ¡vel
 		return nome;
 	}
 
@@ -33,9 +34,9 @@ public class Cliente {
 		this.numConta = numConta;
 	}
 
-	@Override
-	public String toString() {  //esse método exibe todas as informações de uma vez só 
-		return "\n Cliente: \n Nome = " + nome + "\n CPF = " + cpf + "\n Número da conta = " + numConta;
+	@Override //o Override sobreescreve um mÃ©todo, em vez de criar um novo
+	public String toString() {  //esse mÃ©todo exibe todas as informaÃ§Ãµes de uma vez sÃ³ 
+		return "\n Cliente: \n Nome = " + nome + "\n CPF = " + cpf + "\n NÃºmero da conta = " + numConta;
 	}
 
 	@Override
