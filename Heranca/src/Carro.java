@@ -1,4 +1,5 @@
-
+//em uma herança, a classe menor (subclasse) herda, por meio do comando extends, as características contidas na classe maior (superclasse), 
+//que é nesse caso a classe Veiculo
 public class Carro extends Veiculo {
 	private boolean quatroPortas;
 
@@ -19,7 +20,7 @@ public class Carro extends Veiculo {
 //	if (quatroPortas == true) {
 //		System.out.println("Sim");
 //	}else {
-//		System.out.println("N�o");
+//		System.out.println("Não");
 //	}
 	
 	
