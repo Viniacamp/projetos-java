@@ -1,5 +1,5 @@
 
-//agora quando uma classe for herdar de uma interface, usa-se o comando implements
+//quando uma classe for implementar o conteúdo de uma interface, usa-se o comando implements
 public class Ferrari implements Automovel, ItemCaro {
 
 	@Override
