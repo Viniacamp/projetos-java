@@ -1,6 +1,8 @@
 
 public class ContaBancaria {
-	 
+	
+	//aqui, há a criação de atributos de visualização (acesso) privados, ou seja, atributos que vão ser visiveis somente para a classe onde elas 
+	//foram criadas, ficando ocultas para as demais classes 
 	private int numConta;
 	private boolean ativo;
 	private double saldo;
