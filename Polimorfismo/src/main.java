@@ -3,13 +3,13 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		//Como a classe cachorro (subclasse) foi inst‚nciada (apontada) para a classe Animal (superclasse), 
-		//vocÍ consegue criar o objeto Cachorro na classe Animal
-//		Animal animal = new Cachorro(); 
-//		animal.falar();
-//		
-//		animal = new Gato();
-//		animal.falar();
+		//Como a classe cachorro (subclasse) foi inst√¢nciada (apontada) para a classe Animal (superclasse), 
+		//voc√™ consegue criar o objeto Cachorro na classe Animal
+		Animal animal = new Cachorro(); 
+		animal.falar();
+		
+		animal = new Gato();
+		animal.falar();
 		
 		Gato gato = new Gato();
 		Cachorro cachorro = new Cachorro();
@@ -17,11 +17,11 @@ public class main {
 		falar(cachorro);
 	}
 		
-		public static void falar(Animal a) { //a = È a v·riavel que recebeu o endereÁo (localizaÁ„o) do objeto gato 
+		public static void falar(Animal a) { //a = √© a v√°riavel que recebeu o endere√ßo (localiza√ß√£o) do objeto gato 
 			a.falar();
 			
-			if(a instanceof Cachorro) { //esse comando compara as inst‚ncias (verifica se o objeto È da classe declarada) 
-				Cachorro c = (Cachorro) a; //c = v·riavel que recebeu o endereÁo (localizaÁ„o) do objeto cachorro
+			if(a instanceof Cachorro) { //esse comando compara as inst√¢ncias (verifica se o objeto √© da classe declarada) 
+				Cachorro c = (Cachorro) a; //c = v√°riavel que recebeu o endere√ßo (localiza√ß√£o) do objeto cachorro
 				c.morder(); 
 			}
 
