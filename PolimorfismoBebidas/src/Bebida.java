@@ -10,11 +10,9 @@ public class Bebida {
 		this.aquecer = aquecer;
 	}
 	
-	
 	public void preparar() { 
 		System.out.println("Pegar copo");
 	}
-	
 	
 	public String getNome() { 
 		return nome;
@@ -31,7 +29,5 @@ public class Bebida {
 	public void setAquecer(boolean aquecer) {
 		this.aquecer = aquecer;
 	}
-	
-	
-	
+		
 }
