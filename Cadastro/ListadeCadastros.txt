@@ -1,0 +1,2 @@
+Pessoa [nome=fdg, idade=55, sexo=M] Endereco [rua=grtehyfj, numero=11, bairro=ggjh]] 
+Pessoa [nome=dht, idade=55, sexo=F] Endereco [rua=fgh, numero=555, bairro=th]] 

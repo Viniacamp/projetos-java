@@ -1,12 +1,15 @@
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Scanner conf = new Scanner(System.in);
 
 		int ncad = 0;
@@ -63,14 +66,29 @@ public class main {
 			listaDeCadastros.add(pessoa);					
 		}
 		
+		//exibir cadastros na tela
 		for(Pessoa pessoa : listaDeCadastros) {
 			System.out.println(pessoa);
 		}
 		
+		//criação de arquivo txt com o list
 		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("ListadeCadastros.txt"))) {
 			for(Pessoa pessoa : listaDeCadastros) 
 				escrever.write(pessoa.toString());
 		}
-    }
+		
+		//leitura de arquivo txt
+		try(BufferedReader reader = new BufferedReader(new FileReader("ListadeCadastros.txt"))) {
+			String line; 
+			String string = "";
+			
+			while((line = reader.readLine())!= null) {
+				string += line + "\n";
+			}
+			System.out.println(); 
+			System.out.println(string);
+		}
+//		String Pessoa1 = pessoa.toString();
+	}
 //	Sexo sexo = Sexo.valueOf(conf.nextLine());
 }
