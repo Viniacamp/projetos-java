@@ -2,17 +2,14 @@
 public class LeiteQuente extends Bebida {
 
 	public LeiteQuente() {
-		super("Leite Quente", true); //dizendo que a bebida é quente
-
+		super("Leite Quente", true); 
 	}
 
-	@Override // preparação
+	@Override
 	public void preparar() { 
-		super.preparar();
+		super.preparar(); //aqui, o comando super chama o método preparar da superclasse
 		System.out.println("Servir leite quente");
-
 	}
 
-	
 }
 
