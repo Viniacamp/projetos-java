@@ -9,7 +9,7 @@ public class Sabonete {
 		return "Sabonete [cor = " + cor + ", cheiro = " + cheiro + "]\n";
 	}
 
-	//por meio dos métodos get e set
+	//por meio dos mÃ©todos get e set
 	public String getCor() {
 		return cor;
 	}

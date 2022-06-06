@@ -9,7 +9,7 @@ public class main {
 	public static void main(String[] args) throws IOException {
 	
 		
-		//por meio dos métodos get e set
+		//por meio dos mÃ©todos get e set
 		Sabonete sabonete1 = new Sabonete();
 		
 		sabonete1.setCor("Azul");
@@ -30,7 +30,8 @@ public class main {
 		listSab.add(sabonete1);
 		listSab.add(sabonete2);
 		
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saída.txt"))) {
+		//o comando abaixo escreve (grava) dados em um arquivo .txt
+		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("SaÃ­da.txt"))) {
 			for(Sabonete sabonete : listSab) 
 				escrever.write(sabonete.toString());
 		}
