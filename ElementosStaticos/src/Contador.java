@@ -1,9 +1,9 @@
 
 public class Contador {
 	
-	private static int valor;
+	private static int valor; //criação da variável estática valor do tipo int 
 
-//	public Contador() { //usando m�todos normais
+//	public Contador() { //usando métodos normais
 //		this.valor = 1;
 //	}
 	

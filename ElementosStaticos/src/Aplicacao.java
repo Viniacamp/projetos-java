@@ -3,10 +3,10 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-
+		//Programa 1
 //		Matematica matematica = new Matematica(); 
 	
-		//usando mÈtodos normais
+		//usando m√©todos normais
 //		int resultado = matematica.somar(2, 3);	
 //		System.out.println(resultado);
 		
@@ -14,15 +14,15 @@ public class Aplicacao {
 //		System.out.println(resultado);
 		
 
-		//usando mÈtodos estaticos (static)
+		//usando m√©todos estaticos (static)
 //		int resultado = Matematica.somar(2, 4); 
 //		System.out.println(resultado);
 //		
 //		resultado = Matematica.subtrair(5, 2);
 //		System.out.println(resultado);
 
-       
-		//usando mÈtodos normais
+		//Programa 2
+		//usando m√©todos normais
 //		Contador contador1 = new Contador();
 //		Contador contador2 = new Contador();
 //		Contador contador3 = new Contador();
@@ -33,12 +33,12 @@ public class Aplicacao {
 //		System.out.println(contador2.getValor());
 //		System.out.println(contador3.getValor());
 		
-        //usando mÈtodos est·ticos (static)
+        //usando m√©todos est√°ticos (static)
 //		Contador.incrementar();
 //		System.out.println(Contador.getValor());
-		
-		
-		System.out.println(Constantes.MEDIA_DA_PROVA);
+//		
+//		
+//		System.out.println(Constantes.MEDIA_DA_PROVA);
 	}
 
 }
