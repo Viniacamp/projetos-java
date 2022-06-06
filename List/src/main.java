@@ -51,8 +51,9 @@ public class main {
 		Conta conta1 = new Conta("Água", 60.00);
 		Conta conta2 = new Conta("Luz", 120.00);
 		
-		List<Conta> listaDeContas = new ArrayList<Conta>();
+		List<Conta> listaDeContas = new ArrayList<Conta>(); //criação de uma nova lista da classe Conta intitulada listaDeContas
 		
+		//adição dos objetos conta1, conta2 a lista recem-criada  
 		listaDeContas.add(conta1);
 		listaDeContas.add(conta2);
 		
